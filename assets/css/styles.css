@@ -458,13 +458,11 @@ img {
 .timer{
   font: var(--body-font);
   font-size: 10vw;
-  color: black;
+  color: white;
   text-align: center;
   padding: 20px;
-  border: 2px solid black;
   border-radius: 10px;
-  background-color: lightcyan;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--body-color);
 }
 
 .timer__container{
@@ -484,6 +482,7 @@ img {
   margin-bottom: 20px;
   padding: 10px;
 }
+
 
 #nameDisplay{
   font-size: var(--biggest-font-size);

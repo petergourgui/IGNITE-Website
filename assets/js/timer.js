@@ -16,7 +16,7 @@ function updateTimer() {
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     const timerDisplay = document.getElementById('timer');
-    timerDisplay.textContent = `${days}d:${hours}h:${minutes}m:${seconds}s`;
+    timerDisplay.textContent = `${days} : ${hours} : ${minutes} : ${seconds}`;
 
     // If the countdown is over, display a message
     if (distance < 0) {
