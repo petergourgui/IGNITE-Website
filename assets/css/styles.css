@@ -191,6 +191,7 @@ img {
 
 .nav__logo img{
   width: 5rem;
+  padding: 15px;
 }
 
 .nav__toggle{
