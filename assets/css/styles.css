@@ -838,4 +838,9 @@ img {
   .scrollup{
     right: 3rem;
   }
+
+  .nav__logo img{
+    width: 5rem;
+    padding: 0px;
+  }
 }
